@@ -10,11 +10,11 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
-  - Security
-  - Sandboxing
   - Kernel
-  - Open Source
   - Linux
+  - Open Source
+  - Sandboxing
+  - Security
 url: >-
   https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -33,11 +33,11 @@ apis:
     humanURL: https://gvisor.dev/
     tags:
       - Containers
-      - Security
-      - Sandboxing
       - Kernel
-      - Open Source
       - Linux
+      - Open Source
+      - Sandboxing
+      - Security
     properties:
       - type: Documentation
         url: https://gvisor.dev/docs/
