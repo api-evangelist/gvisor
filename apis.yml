@@ -41,14 +41,14 @@ apis:
     properties:
       - type: Documentation
         url: https://gvisor.dev/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://gvisor.dev/docs/user_guide/quick_start/docker/
 common:
   - type: Website
     url: https://gvisor.dev/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/google
-  - type: GitHub Repository
+  - type: GitHubRepository
     url: https://github.com/google/gvisor
   - type: Documentation
     url: https://gvisor.dev/docs/
