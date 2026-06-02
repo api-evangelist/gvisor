@@ -2,12 +2,20 @@
   "repo": "gvisor",
   "feeds": [
     {
-      "source": "https://gvisor.dev/blog/",
+      "source": "https://gvisor.dev/blog/index.xml",
       "feed_url": "https://gvisor.dev/blog/index.xml",
       "title": "",
-      "saved": 3
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://gvisor.dev/docs/",
+      "feed_url": "https://gvisor.dev/docs/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 13,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
