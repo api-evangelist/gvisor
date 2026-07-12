@@ -44,6 +44,10 @@ apis:
       - type: GettingStarted
         url: https://gvisor.dev/docs/user_guide/quick_start/docker/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/gvisor-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/gvisor-domain-security.yml
   - type: Website
     url: https://gvisor.dev/
   - type: GitHubOrganization
