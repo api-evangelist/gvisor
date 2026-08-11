@@ -56,6 +56,17 @@ apis:
       - type: GettingStarted
         url: https://gvisor.dev/docs/user_guide/quick_start/docker/
 common:
+  - type: IssueTracker
+    url: https://github.com/google/gvisor/issues
+  - type: SecurityPolicy
+    url: https://github.com/google/gvisor/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/google/gvisor/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/google/gvisor/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/google/gvisor/blob/master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/gvisor-vulnerability-disclosure.yml
   - type: DomainSecurity
