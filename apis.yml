@@ -24,6 +24,13 @@ tags:
   - Containers
   - Kernel
   - Linux
+  - Open-Source
+  - Sandboxing
+  - Security
+tags_raw:
+  - Containers
+  - Kernel
+  - Linux
   - Open Source
   - Sandboxing
   - Security
@@ -44,6 +51,13 @@ apis:
       container runtimes.
     humanURL: https://gvisor.dev/
     tags:
+      - Containers
+      - Kernel
+      - Linux
+      - Open-Source
+      - Sandboxing
+      - Security
+    tags_raw:
       - Containers
       - Kernel
       - Linux
