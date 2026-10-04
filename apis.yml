@@ -36,7 +36,7 @@ tags:
   - Containers
   - Kernel
   - Linux
-  - Open-Source
+  - Open Source
   - Sandboxing
   - Security
 tags_raw:
@@ -46,6 +46,7 @@ tags_raw:
   - Open Source
   - Sandboxing
   - Security
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -66,7 +67,7 @@ apis:
       - Containers
       - Kernel
       - Linux
-      - Open-Source
+      - Open Source
       - Sandboxing
       - Security
     tags_raw:
@@ -76,6 +77,7 @@ apis:
       - Open Source
       - Sandboxing
       - Security
+      - Open-Source
     properties:
       - type: Documentation
         url: https://gvisor.dev/docs/
