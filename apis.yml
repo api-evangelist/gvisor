@@ -84,6 +84,12 @@ apis:
       - type: GettingStarted
         url: https://gvisor.dev/docs/user_guide/quick_start/docker/
 common:
+  - type: Plans
+    url: plans/gvisor-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/gvisor-rate-limits.yml
+  - type: FinOps
+    url: finops/gvisor-finops.yml
   - type: IssueTracker
     url: https://github.com/google/gvisor/issues
   - type: SecurityPolicy
