@@ -1,4 +1,4 @@
-# gVisor (gvisor)
+# gVisor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,49 +66,103 @@
 
 gVisor is an application kernel written in Go that implements a substantial portion of the Linux system surface. It provides an additional layer of isolation between running applications and the host operating system, intercepting and handling application system calls in user space to reduce the attack surface of the host kernel.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/gvisor/refs/heads/main/apis.yml)
+**Areas:** Containers · Kernel · Linux · Open Source · Sandboxing · Security
 
-## Scope
+## gVisor on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** Open Source
+Everything profiled for gVisor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gvisor/](https://apis.io/providers/gvisor/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - Containers, Kernel, Linux, Open Source, Sandboxing, Security
+- [gVisor](https://apis.io/apis/gvisor/gvisor/) — gVisor is an open-source application kernel written in Go that provides an additional layer of isolation between containerized applications and the host…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### gVisor
-gVisor is an open-source application kernel written in Go that provides an additional layer of isolation between containerized applications and the host operating system. It implements a substantial portion of the Linux system call interface in user space, making it compatible with most Linux applications while providing stronger security guarantees than traditional container runtimes. gVisor does not expose REST or gRPC APIs; integration is via the OCI runtime interface (`runsc`) used by Docker and Kubernetes.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://gvisor.dev/](https://gvisor.dev/)
+- [Gvisor Domain Security](https://apis.io/security/gvisor/gvisor-domain-security/)
+- [Gvisor Vulnerability Disclosure](https://apis.io/security/gvisor/gvisor-vulnerability-disclosure/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Containers, Kernel, Linux, Open Source, Sandboxing, Security
+Published plans, tiers and prices.
 
-#### Properties
+- [Gvisor Plans Pricing](https://apis.io/plans/gvisor/gvisor-plans-pricing/)
 
-- [Documentation](https://gvisor.dev/docs/)
-- [Getting Started](https://gvisor.dev/docs/user_guide/quick_start/docker/)
+#### Rate limits (1)
 
-## Common Properties
+Published request limits.
+
+- [Gvisor Rate Limits](https://apis.io/rate-limits/gvisor/gvisor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Gvisor Finops](https://apis.io/finops/gvisor/gvisor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://gvisor.dev/)
-- [GitHub Organization](https://github.com/google)
-- [GitHub Repository](https://github.com/google/gvisor)
 - [Documentation](https://gvisor.dev/docs/)
 - [Blog](https://gvisor.dev/blog/)
+- [GitHub](https://github.com/google)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 22.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gvisor/](https://apis.io/providers/gvisor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for gVisor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gvisor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
